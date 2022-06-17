@@ -99,3 +99,12 @@ body {
         'bottom-left bottom-mid bottom-right'
 }
 
+#grid:hover {
+    border-width: 6px;
+    border-color: #1e89bbff
+}
+
+#reset-button:hover {
+    border-width: 6px;
+    border-color: rgb(159, 159, 159)
+}

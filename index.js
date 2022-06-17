@@ -118,7 +118,7 @@ function declareWinner(lastMove,lastPlayer) {
             }
         }
     }
-    if(board.playerXmoves.length+board.playerOmoves.length >= 9) {
+    if(board.playerXmoves.length+board.playerOmoves.length === 9) {
         console.log("You two tied!");
         play = "OFF";
         addElement("Tie");
