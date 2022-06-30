@@ -93,6 +93,7 @@ function declareWinner(lastMove,lastPlayer) {
                             console.log("Player "+player+" wins!");
                             play = "OFF";
                             addElement(player);
+                            return
                         }
 
                     }
@@ -111,8 +112,8 @@ function declareWinner(lastMove,lastPlayer) {
                             console.log("Player "+player+" wins!");
                             play = "OFF";
                             addElement(player);
+                            return
                         }
-                            
                     }
                 }
             }
