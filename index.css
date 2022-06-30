@@ -1,39 +1,36 @@
-html {
-    height: 100%;
-    width: 100%;
-}
-
 body {
     font-size: 300px;
     height: 75%;
     color: #5d5c5c;
-    margin: auto 0;
-    display: flex;
+    display: block;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 #header {
     font-size: 50px;
-    position: absolute;
-    top: 5%;
+    margin-top: 80px;
+    color: aqua;
+    text-shadow: 2px 2px 4px black, 0 0 1em black, 0 0 0.2em black;
 }
-
+blac,
 #footer {
     font-size: 40px;
-    position: absolute;
-    bottom: 40%;
+    margin-top: 20px;
+    color: aqua;
+    text-shadow: 1px 1px 2px rgb(93, 100, 100), 0 0 1em rgb(93, 100, 100), 0 0 0.2em rgb(93, 100, 100);
 }
 
 #reset-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
     font-family: Times;
     font-size: 30px;
-    position: absolute;
-    bottom: 33%;
     background-color: #5d5c5c;
     color: white;
     border-radius: 25px;
-    border: 3px solid black;
+    border: 3px solid aqua;
     padding: 2px 15px;
 }
 
@@ -78,7 +75,7 @@ body {
 }
 
 #top-left, #top-mid, #top-right, #mid-left, #mid-mid, #mid-right, #bottom-left, #bottom-mid, #bottom-right {
-    font-size: 25%;
+    font-size: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,8 +83,9 @@ body {
 
 #grid {
     background-color: aqua;
-    height: 1em;
-    width: 1em;
+    margin: 0 auto;
+    height: 40vh;
+    width: 40vh;
     display: grid;
     border-radius: 50px;
     border: 3px solid #5d5c5c;
